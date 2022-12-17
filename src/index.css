@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  width: 100vw;
+  overflow-x: hidden;
+}
+.hero {
+  background-image: url("./assets/hero-background.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
